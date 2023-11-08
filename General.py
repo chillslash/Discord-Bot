@@ -258,7 +258,7 @@ class GeneralCaller:
             #         longitude = rs.get("results")[0].get("geometry").get("location").get("lng")
             #         async with aiohttp.ClientSession() as session:
             #             async with session.get(
-            #                     'http://api.openweathermap.org/data/2.5/weather?lat={}&lon={}&APPID=2c800a2c22a77d2bb437cafda1b1eb4b'.format(
+            #                     'http://api.openweathermap.org/data/2.5/weather?lat={}&lon={}&APPID='.format(
             #                             latitude, longitude)) as rr:
             #                 r = await rr.json()
             #         if r.get('message') == 'city not found':
